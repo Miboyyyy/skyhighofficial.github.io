@@ -1,0 +1,6 @@
+let url = new URLSearchParams(window.location.search)
+document.getElementById('firstname').innerHTML = url.get('firstname')
+document.getElementById('lastname').innerHTML = url.get('lastname')
+document.getElementById('email').innerHTML = url.get('email')
+document.getElementById('phonenumber').innerHTML = url.get('phonenumber')
+document.getElementById('messages').innerHTML = url.get('messages')
